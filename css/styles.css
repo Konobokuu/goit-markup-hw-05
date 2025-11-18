@@ -520,8 +520,8 @@ img {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: #404bbf;
-  border: none;
+  background-color: #404bbf !important;
+  border: none !important;
 }
 
 .modal-close-icon {
@@ -531,7 +531,7 @@ img {
 
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
-  fill: #ffffff;
+  fill: #ffffff !important;
 }
 
 .modal-title-text {
@@ -546,7 +546,7 @@ img {
 
 /* Form Styles */
 .form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .form-label {
@@ -560,7 +560,6 @@ img {
 
 .input-wrapper {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .form-input {
@@ -579,7 +578,7 @@ img {
 }
 
 .form-input:focus {
-  border-color: #4d5ae5;
+  border-color: #4D5AE5 !important;
 }
 
 .form-icon {
@@ -591,7 +590,7 @@ img {
 }
 
 .form-input:focus + .form-icon {
-  fill: #4d5ae5;
+  fill: #4D5AE5 !important;
 }
 
 .form-textarea {
@@ -612,7 +611,7 @@ img {
 }
 
 .form-textarea:focus {
-  border-color: #4d5ae5;
+  border-color: #4D5AE5 !important;
 }
 
 .form-textarea::placeholder {
@@ -622,6 +621,8 @@ img {
 /* Checkbox Styles */
 .checkbox-field {
   margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .checkbox-label {
@@ -661,13 +662,13 @@ img {
   flex-shrink: 0;
 }
 
-.checkbox-input:checked + .checkbox-custom {
+.checkbox-input:checked + .checkbox-label .checkbox-custom {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.checkbox-input:focus + .checkbox-custom {
+.checkbox-input:focus + .checkbox-label .checkbox-custom {
   border-color: #4d5ae5;
 }
 
