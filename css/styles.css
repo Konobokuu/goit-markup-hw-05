@@ -91,11 +91,11 @@ img {
   color: #404bbf;
 }
 
-.nav-link.active {
+.nav-link.nav-link-active {
   color: #404bbf;
 }
 
-.nav-link.active::after {
+.nav-link.nav-link-active::after {
   content: '';
   position: absolute;
   left: 0;
