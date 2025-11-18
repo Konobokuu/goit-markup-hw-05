@@ -471,6 +471,12 @@ img {
   pointer-events: none;
 }
 
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .backdrop:target {
   opacity: 1;
   visibility: visible;
