@@ -651,9 +651,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.privacy-text{
-  line-height: 1.3;
-}
+
 .checkbox-custom {
   display: inline-flex;
   width: 16px;
