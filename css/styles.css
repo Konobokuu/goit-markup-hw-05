@@ -626,6 +626,7 @@ img {
 }
 
 .checkbox-field {
+  display: inline-flex;
   margin-bottom: 24px;
 }
 
